@@ -1,0 +1,77 @@
+/* ----Import Font styles----*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/*----Basic setting for all elements----*/
+*{
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+/*----Main Styling----*/
+body{
+    font-family: 'Roboto',sans-serif;
+    background: #fff;
+    color: #111;
+    line-height: 110%;
+}
+.container{
+    width: 95%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/*----Heading----*/
+h1,h2,h3,h4,h5,h6{
+    margin: 10px 8px;
+    font-weight: 500;
+}
+
+p{
+    margin: 5px 7px;
+}
+
+/*----Text Alignment----*/
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+/*----Text Color----*/
+.text-white{
+    color: #fff;
+}
+.text-black{
+    color: #000;
+}
+.text-green{
+    color: green;
+}
+.text-red{
+    color: red;
+}
+.text-blue{
+    color: blue;
+}
+.text-orange{
+    color: blue;
+}
+
+/*----Basic Text Styling----*/
+
+.text-bold{
+    font-weight: 700;
+}
+.text-md{
+    font-weight: 500;
+}
+.text-light{
+font-weight: 300;
+}
+.text-underline{
+    text-decoration: underline;
+}
