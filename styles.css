@@ -75,3 +75,6 @@ font-weight: 300;
 .text-underline{
     text-decoration: underline;
 }
+.text-italic{
+    font:italic;
+}
